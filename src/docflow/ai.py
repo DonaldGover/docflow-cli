@@ -20,7 +20,7 @@ Return ONLY valid JSON matching this schema:
 """
 
 def extract_with_ai(text: str, cfg: AiCfg, seed: int | None = None) -> Extraction:
-    api_key = os.getenv(cfg.ai.api_key_env, "")
+    api_key = os.getenv(cfg.api_key_env, "")
     if not api_key:
         digest = hashlib.sha1(text.encode("utf-8")).hexdigest()
         rand = random.Random(int(digest[:8], 16) + (seed or 0))
