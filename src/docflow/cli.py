@@ -4,9 +4,9 @@ from pathlib import Path
 import typer
 from rich.console import Console
 
-from .config import load_config
-from .pipeline import process_pdf
-from .utils import ensure_dir
+from docflow.config import load_config
+from docflow.pipeline import process_pdf
+from docflow.utils import ensure_dir
 
 app = typer.Typer(add_completion=False)
 console = Console()
