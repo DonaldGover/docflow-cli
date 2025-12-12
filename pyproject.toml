@@ -45,7 +45,3 @@ build-backend = "setuptools.build_meta"
 python_version = "3.11"
 ignore_missing_imports = true
 mypy_path = "src"
-[tool.mypy]
-python_version = "3.11"
-ignore_missing_imports = true
-mypy_path = "src"
