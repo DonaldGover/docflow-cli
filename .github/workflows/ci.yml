@@ -10,5 +10,5 @@ jobs:
           python-version: "3.11"
       - run: pip install -e ".[dev]"
       - run: ruff check .
-      - run: mypy docflow
+      - run: mypy src/docflow
       - run: pytest --cov --maxfail=1 --disable-warnings
