@@ -1,5 +1,9 @@
 from __future__ import annotations
-import os, json, requests, hashlib, random
+import os
+import json
+import requests
+import hashlib
+import random
 from .models import Extraction
 from .config import AiCfg
 
