@@ -1,7 +1,7 @@
 from __future__ import annotations
 from pathlib import Path
 import shutil
-from ..models import Extraction
+from docflow.models import Extraction
 
 class MockCRM:
     def record(self, extraction: Extraction, run_id: str) -> None:
