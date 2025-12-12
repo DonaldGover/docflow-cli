@@ -1,0 +1,8 @@
+{
+  "document_type": "MSC",
+  "summary": "Stub extraction for testing reproducibility.",
+  "required_actions": ["Validate pipeline output consistency."],
+  "notice_date": null,
+  "amount": null,
+  "confidence": 0.5
+}
